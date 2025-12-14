@@ -14,7 +14,8 @@ let Employee = {
         }
     }
 }
-console.log(Employee.job.department.manager.name) // Output: Software Engineer
+console.log(Employee?.job?.department?.manager?.name)
+console.log(Employee.job?.company)
 
 
 let Car = {

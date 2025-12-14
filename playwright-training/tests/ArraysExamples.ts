@@ -1,5 +1,7 @@
 let fruits: string[] = ['apple', 'banana', 'orange'];
+
 console.log(fruits); 
+
 console.log(fruits[0]); 
 fruits.push('grape'); // Add an element to the end of the array console.log(fruits);
 console.log(fruits.length); 
@@ -23,7 +25,7 @@ for(let user of users){
     console.log(user.name,user.age,user.email);
 }
 
-let user = users.find((user) => user.name === 'Alice');
+let user = users.find((user) => user.name === 'alice');
 const year = user?.age
 
 let filteredUsers = users.filter((user) => user.age > 27);

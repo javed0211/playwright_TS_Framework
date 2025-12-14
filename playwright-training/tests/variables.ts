@@ -1,13 +1,21 @@
 let age:number = 20;
-age =30;
+age = 30;
 
-const country:string ="India";
+const country:string = "India";
+
 
 let city = "london";
-let ages= 10.1;
+let ages = 10.1;
 let isFound = true;
 let person:any
 
-let emails = [1,2,3];
+let emails = [1,2,3,"4,5,6"];
 
-let personDetails: {name:string; age:number}[]=[];
+let personDetails: {
+    name:string; 
+    age:number;
+    address:{
+        street:string,
+        city:string
+    }
+} [] = [ ];

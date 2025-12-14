@@ -8,7 +8,7 @@ else if(num == 15){
     console.log("Number is less than or equal to 15")
 }
 
-let browser = "Chrome";
+let browser = "firefox";
 switch(browser){
     case 'chrome':
         console.log('Launch chrome');
