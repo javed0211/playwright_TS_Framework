@@ -12,10 +12,11 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "outDir": "dist",
+    "baseUrl": ".",
     "paths": {
-      "@pages/*": ["src/pages/*"],
-      "@utils/*": ["src/utils/*"],
-      "@config/*": ["src/config/*"]
+      "@pages/*": ["./src/pages/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@config/*": ["./src/config/*"]
     }
   },
   "include": [
